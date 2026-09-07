@@ -1,6 +1,6 @@
-# perfload Support
+# PerfLoad Support
 
-Welcome to the support repository for **perfload** 🚀
+Welcome to the support repository for **PerfLoad** 🚀
 
 Use this repo to:
 - 🐛 Report bugs
@@ -11,7 +11,7 @@ Use this repo to:
 
 ## 🚀 Getting Started
 
-The easiest way to run perfload is via Docker.
+The easiest way to run PerfLoad is via Docker.
 
 ### 📦 Prerequisites
 
@@ -25,7 +25,7 @@ docker --version
 
 ---
 
-## ▶️ Run perfload
+## ▶️ Run PerfLoad
 
 ```bash
 docker run -d --name perfload \
@@ -72,12 +72,12 @@ Once the container is running, open:
 
 http://localhost:3000/load-tester.html
 
-This is the **perfload Workbench**, where you can:
+This is the **PerfLoad Workbench**, where you can:
 - Paste curl commands
 - Configure load tests
 - Run tests locally or remotely
 
-![perfload Workbench](assets/workbench-1280x800.png)
+![PerfLoad Workbench](assets/workbench-1280x800.png)
 
 ---
 
@@ -143,9 +143,9 @@ We welcome ideas! Please include:
 
 ---
 
-## 🧠 About perfload
+## 🧠 About PerfLoad
 
-perfload is a lightweight load testing tool that lets you:
+PerfLoad is a lightweight load testing tool that lets you:
 - Use existing curl commands
 - Run load tests instantly
 - Avoid complex setup
