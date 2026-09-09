@@ -72,8 +72,12 @@ Once the container is running, open:
 
 http://localhost:3000/load-tester.html
 
-This is the **PerfLoad Workbench**, where you can:
-- Paste curl commands
+This is the **PerfLoad Workbench**, where you can create tests by:
+- Pasting curl commands
+- Importing an OpenAPI spec
+- Manually entering a URL, method, and body
+
+Then:
 - Configure load tests
 - Run tests locally or remotely
 
@@ -92,11 +96,13 @@ This is the **PerfLoad Workbench**, where you can:
 ## 🧪 Example Usage
 
 1. Open the Workbench
-2. Paste a curl command:
-
-```bash
-curl -X GET "https://api.example.com/data?limit=10"
-```
+2. Create a test using one of:
+    - A pasted curl command:
+      ```bash
+      curl -X GET "https://api.example.com/data?limit=10"
+      ```
+    - An imported OpenAPI spec
+    - A manually entered URL, method, and body
 
 3. Configure:
     - Virtual Users
@@ -111,7 +117,7 @@ curl -X GET "https://api.example.com/data?limit=10"
 
 When reporting a bug, please include:
 
-- curl command used
+- how the test was created (curl command, OpenAPI spec, or manual entry)
 - configuration (VUs, duration, etc.)
 - expected vs actual behavior
 - screenshots (if applicable)
@@ -146,7 +152,7 @@ We welcome ideas! Please include:
 ## 🧠 About PerfLoad
 
 PerfLoad is a lightweight load testing tool that lets you:
-- Use existing curl commands
+- Create tests from curl commands, OpenAPI specs, or manual URL/method/body entry
 - Run load tests instantly
 - Avoid complex setup
 
