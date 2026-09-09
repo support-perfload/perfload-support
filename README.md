@@ -77,7 +77,7 @@ This is the **PerfLoad Workbench**, where you can:
 - Configure load tests
 - Run tests locally or remotely
 
-![PerfLoad Workbench](assets/workbench-1280x800.png)
+![PerfLoad Workbench](assets/workbench.png)
 
 ---
 
